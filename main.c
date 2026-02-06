@@ -12,7 +12,7 @@ int oduzmi(int a, int b) {
 int main() {
     int izbor, a, b, rezultat;
     
-    printf("=== Jednostavni kalkulator ===\n");
+    printf("=== KALKULATOR v1 ===\n");
     printf("1 - Sabiranje dva broja\n");
     printf("2 - Oduzimanje dva broja\n");
     printf("Unesite broj zeljene opcije: ");
