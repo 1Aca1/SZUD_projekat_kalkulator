@@ -32,7 +32,7 @@ int main() {
     printf("Rezultat: %d\n", rezultat);
 }
     else {
-        printf("Greska: izabrali ste nepostojecu opciju.\n");
+       printf("Pogresan unos. Pokusajte ponovo.\n");
     }
 
     return 0;
