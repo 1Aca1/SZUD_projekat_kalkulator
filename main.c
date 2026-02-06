@@ -11,11 +11,11 @@ int oduzmi(int a, int b) {
 
 int main() {
     int izbor, a, b, rezultat;
-
-    printf("Kalkulator\n");
-    printf("1 - Sabiranje\n");
-    printf("2 - Oduzimanje\n");
-    printf("Izaberite opciju: ");
+    
+    printf("=== Jednostavni kalkulator ===\n");
+    printf("1 - Sabiranje dva broja\n");
+    printf("2 - Oduzimanje dva broja\n");
+    printf("Unesite broj zeljene opcije: ");
     scanf("%d", &izbor);
 
     if (izbor == 1) {
@@ -32,7 +32,7 @@ int main() {
     printf("Rezultat: %d\n", rezultat);
 }
     else {
-        printf("Nepoznata opcija! Pokusajte ponovo.\n");
+        printf("Greska: izabrali ste nepostojecu opciju.\n");
     }
 
     return 0;
