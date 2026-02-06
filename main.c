@@ -25,12 +25,15 @@ int main() {
         printf("Rezultat: %d\n", rezultat);
     }
 
-    if (izbor == 2) {
+    else if (izbor == 2) {
     printf("Unesite dva broja: ");
     scanf("%d %d", &a, &b);
     rezultat = oduzmi(a, b);
     printf("Rezultat: %d\n", rezultat);
 }
+    else {
+        printf("Nepoznata opcija! Pokusajte ponovo.\n");
+    }
 
     return 0;
 }
