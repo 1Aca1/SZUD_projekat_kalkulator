@@ -14,11 +14,17 @@ int main() {
     
     printf("=== KALKULATOR v1 ===\n");
     printf("1 - Sabiranje dva broja\n");
-    printf("2 - Oduzimanje dva broja\n");
-    printf("Unesite broj zeljene opcije: ");
+printf("2 - Oduzimanje dva broja\n");
+printf("0 - Izlaz iz programa\n");
+printf("Unesite broj zeljene opcije: ");
     scanf("%d", &izbor);
 
-    if (izbor == 1) {
+    if (izbor == 0) {
+    printf("Izlaz iz programa.\n");
+    return 0;
+}
+    
+    else if (izbor == 1) {
         printf("Unesite dva broja: ");
         scanf("%d %d", &a, &b);
         rezultat = saberi(a, b);
